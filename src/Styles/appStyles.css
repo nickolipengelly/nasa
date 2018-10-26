@@ -1,0 +1,35 @@
+body {
+    background: -webkit-linear-gradient(to right, #000000, #434343);
+    background: linear-gradient(to right, #000000, #434343);
+    font-family: Nasa;
+}
+
+.header {
+    text-align: center;
+    background-image: url("./20180126_nasa_header@2x.jpg");
+    background-size: cover;
+    font-size: 80px;
+    color: lightsteelblue;
+    height: 40vh;
+    border: 2px solid lightsteelblue;
+    width: 100%;
+    text-align: right
+
+
+}
+
+.rovers {
+    border: 1px solid lightsteelblue;
+    color: lightsteelblue;
+}
+
+footer {
+    height: 30px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.bold{
+    font-size: 20px;
+    color: lightgreen
+}

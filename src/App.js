@@ -1,28 +1,22 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "../src/Styles/appStyles.css";
+import Rovers from "./Rovers";
+import { Switch, Route } from "react-router-dom";
+import PhotoPage from "./PhotoPage";
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+function App() {
+  return (
+    <div>
+      <div>
+        <header className="header">ROV'r</header>
       </div>
-    );
-  }
+      <Switch>
+        <Route exact path="/" component={Rovers} />
+        <Route path="/rover/photos" component={PhotoPage} />
+      </Switch>
+      <footer> byNSP © 2018</footer>
+    </div>
+  );
 }
 
 export default App;

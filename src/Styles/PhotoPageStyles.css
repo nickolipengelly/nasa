@@ -1,0 +1,28 @@
+.grid {
+    display: inline-grid;
+    grid-column-start: auto;
+    grid-row-start: auto;
+    align-content: center;
+
+}
+
+.marsImage {
+    border-style: solid;
+    border-color: lightsteelblue;
+
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: auto;
+}
+
+.camera {
+    color: lightsteelblue;
+    padding: 1px;
+    font-size: auto;
+
+}
