@@ -8,7 +8,7 @@ function App() {
   return (
     <div>
       <div>
-        <header className="header">ROV'r</header>
+        <header className="header">NAS'r</header>
       </div>
       <Switch>
         <Route exact path="/" component={Rovers} />
